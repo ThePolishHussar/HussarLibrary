@@ -3,11 +3,6 @@
 desktop=(
 	#example:
 	#libreoffice-base.desktop
-	libreoffice-calc.desktop
-	libreoffice-draw.desktop
-	libreoffice-impress.desktop
-	libreoffice-math.desktop
-	libreoffice-writer.desktop
 )
 
 for file in "${desktop[@]}"; do
