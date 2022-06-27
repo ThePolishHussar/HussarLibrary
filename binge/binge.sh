@@ -30,7 +30,7 @@ for y in 999 99 9; do
 		break
 	fi 
 done
-mpv Season$season/Episode$spacing$episode.mkv
+mpv --fullscreen Season$season/Episode$spacing$episode.mkv
 episode=$(expr $episode + 1)
 echo "$episode" > episode
 	read -p "Play Episode $episode? [Y/n] " yn
